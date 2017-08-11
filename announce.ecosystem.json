@@ -1,0 +1,8 @@
+{
+    "apps": [{
+        "name": "skufes-news-server",
+        "script": "./src/index.js",
+        "watch": true,
+	"cron_restart": "*/10 * * * *"
+    }]
+}

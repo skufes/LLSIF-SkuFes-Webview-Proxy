@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  /*
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  */
+}
+
+body {
+  color: #191919;
+  font-family: sans-serif;
+  font-size: 22px;
+  width: 880px;
+  -webkit-text-size-adjust : 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#outer {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 14px;
+  box-shadow: 3px 3px 0 0 #cecccd;
+  display: block;
+  /*height: 529px;*/
+  margin: 0 3px 3px 0;
+  width: 873px;
+}
+
+#inner {
+  border: 2px solid #fc6399;
+  border-radius: 12px;
+  /*height: 525px;*/
+  width: 869px;
+}
+
+#header {
+  /*padding: 3px;*/
+  position: relative;
+}
+
+h2 {
+  background-color: #fc6399;
+  border-radius: 9px 9px 0px 0px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  height: 57px;
+  line-height: 57px;
+  padding: 3px 5px 3px 55px;
+  /*width: 817px;*/
+}
+
+.no-back h2 {
+  padding-left: 15px;
+  width: 846px;
+}
+
+#back {
+  background-image: url("//cf-static-prod.lovelive.ge.klabgames.net/resources/img/news/button1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 7px;
+  height: 40px;
+  position: absolute;
+  top: 15px;
+  width: 40px;
+}
+
+#back.tapped {
+  background-image: url("//cf-static-prod.lovelive.ge.klabgames.net/resources/img/news/button1se.png");
+}
+
+.no-back #back {
+  display: none;
+}
+
+#body {
+  /*height: 455px;*/
+  margin: 2px 3px 5px;
+  padding: 0 19px 0 13px;
+  position: relative;
+  width: 831px;
+}
+
+#start-date {
+  text-align: right;
+}
